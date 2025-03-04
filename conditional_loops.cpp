@@ -33,18 +33,26 @@ int main(){
 //     cout << "Write just a to z or A to Z\n"  ;
 // }
 
-// uppercase/lowercase program (in numbers)
-char ch ;
-cout << "Enter any charactar : "; 
-cin >> ch ;
-if (ch >= 97  && ch <= 122){
-cout << "Lowercase\n"  ;
-}
-else if (ch >= 65 && ch <= 90){
- cout << "Uppercase\n"  ;
-}
-else{
-    cout << "Write just a to z or A to Z\n"  ;
-}
+// // uppercase/lowercase program (in numbers)
+// char ch ;
+// cout << "Enter any charactar : "; 
+// cin >> ch ;
+// if (ch >= 97  && ch <= 122){
+// cout << "Lowercase\n"  ;
+// }
+// else if (ch >= 65 && ch <= 90){
+//  cout << "Uppercase\n"  ;
+// }
+// else{
+//     cout << "Write just a to z or A to Z\n"  ;
+// }
+
+// Ternary Opt (check positive/negetive program)
+// int num ;
+// cout << "Enter any postive or negative number : "; 
+// cin >> num;
+// // num >= 0 ? cout << "Positive" : cout << "Negative" ;
+// // or
+// cout << (num >= 0 ? "Positive" : "Negative" ) ;
 return 0 ;
 }
