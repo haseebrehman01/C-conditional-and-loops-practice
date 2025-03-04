@@ -54,5 +54,26 @@ int main(){
 // // num >= 0 ? cout << "Positive" : cout << "Negative" ;
 // // or
 // cout << (num >= 0 ? "Positive" : "Negative" ) ;
+
+//loops
+// while loop
+// int n = 10;
+// int count = 1;
+// while(count <= n){
+// cout << count << endl ;
+// count++;
+// }
+// cout << endl; //for gap between next cammand
+
+//reverse loop
+// int n = 1;
+// int count = 10;
+// while(count >= n){
+// cout << count << endl ;
+// count--;
+// }
+// cout << endl; //for gap between next cammand
+
+//for loop
 return 0 ;
 }
