@@ -32,5 +32,19 @@ int main(){
 // else{
 //     cout << "Write just a to z or A to Z\n"  ;
 // }
+
+// uppercase/lowercase program (in numbers)
+char ch ;
+cout << "Enter any charactar : "; 
+cin >> ch ;
+if (ch >= 97  && ch <= 122){
+cout << "Lowercase\n"  ;
+}
+else if (ch >= 65 && ch <= 90){
+ cout << "Uppercase\n"  ;
+}
+else{
+    cout << "Write just a to z or A to Z\n"  ;
+}
 return 0 ;
 }
