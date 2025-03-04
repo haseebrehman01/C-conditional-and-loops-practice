@@ -8,7 +8,7 @@ int main(){
 // cout << "Your age is : " << age ;
 // return 0 ;
 
-// conditinal program (if else)
+// conditinal program
 // int age ;
 // cout << "Enter your age : "; 
 // cin >> age ;
@@ -19,5 +19,18 @@ int main(){
 //     cout << "You are not eligible for id card\n"  ;
 // }
 
-// return 0 ;
+//uppercase/lowercase program
+// char ch ;
+// cout << "Enter any charactar : "; 
+// cin >> ch ;
+// if (ch >= 'a' && ch <= 'z'){
+// cout << "Lowercase\n"  ;
 // }
+// else if (ch >= 'A' && ch <= 'Z'){
+//  cout << "Uppercase\n"  ;
+// }
+// else{
+//     cout << "Write just a to z or A to Z\n"  ;
+// }
+return 0 ;
+}
