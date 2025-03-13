@@ -103,5 +103,24 @@ int main(){
 
 // }
 // cout << "Odd sum = " <<  oddSum << endl ; 
+
+//do while loop
+//The do-while loop is a control flow statement in programming that repeatedly executes a block of code as long as a specified condition is true. Unlike the while loop, the do-while loop guarantees that the block of code is executed at least once, even if the condition is false from the beginning.
+//Syntax
+//do {
+    // Code to execute
+//} while (condition);
+//
+// do{
+//     cout << "hello world";
+// } while (3>5);
+
+//Q : print 1 to 10 in do while loop
+// int n = 10 ;
+// int i = 1 ;
+// do {
+// cout << i ;
+// i++;
+// }while (i <= n);
 return 0 ;
 }
