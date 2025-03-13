@@ -75,5 +75,33 @@ int main(){
 // cout << endl; //for gap between next cammand
 
 //for loop
+// for (int i = 1 ; i<=10 ; i ++){
+//     cout << i << " ";
+// }
+// cout << endl;
+
+//Q : sum of numbers fron 1 to n 
+// int n = 10;
+
+// int sum = 0 ;
+// for(int i = 1 ; i <= n ; i++ ){
+// sum += i ;
+// //break statement
+// if (i == 5){
+//     break;
+// }
+// }
+// cout << "sum = " << sum ;
+
+//Q : sum of all odd numbers
+// int n = 7 ; 
+// int oddSum = 0 ;
+// for (int i = 1 ; i<= n ; i++){
+//     if(i%2 != 0){
+//  oddSum += i  ;
+//     }
+
+// }
+// cout << "Odd sum = " <<  oddSum << endl ; 
 return 0 ;
 }
